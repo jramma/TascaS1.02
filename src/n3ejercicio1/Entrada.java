@@ -15,7 +15,6 @@ public class Entrada {
 			try {
 				System.out.println(mensaje);
 				input = sc.nextByte();
-				sc.nextLine();
 			} catch (InputMismatchException e) {
 				System.out.println("Te has equivocado de formato");
 				error = e.toString();
@@ -33,7 +32,7 @@ public class Entrada {
 			try {
 				System.out.println(mensaje);
 				input = sc.nextInt();
-				sc.nextLine();
+				
 			} catch (InputMismatchException e) {
 				System.out.println("Te has equivocado de formato");
 				error = e.toString();
@@ -108,7 +107,6 @@ public class Entrada {
 					System.out.println("Lo has escrito mal, vuelve a introducir un char");
 					error = e.toString();
 				}
-				sc.nextLine();
 			} while (error != null);
 		
 		return input;
