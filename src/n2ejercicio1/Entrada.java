@@ -88,7 +88,7 @@ public class Entrada {
 					System.out.println("Lo has escrito mal, vuelve a introducir un char");
 					error = e.toString();
 				}
-				sc.nextLine();
+				
 			} while (error != null);
 		
 		return input;
@@ -106,7 +106,7 @@ public class Entrada {
 					System.out.println("Lo has escrito mal, vuelve a introducir un char");
 					error = e.toString();
 				}
-				sc.nextLine();
+				
 			} while (error != null);
 		
 		return input;
